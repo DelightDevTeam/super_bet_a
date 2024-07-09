@@ -1,0 +1,15 @@
+// to remove laravel log
+php -r "file_put_contents('/var/www/html/shwe_dragon_slot_a/storage/logs/laravel.log', '');"
+// created dev branch for kzt
+
+BigGaming remove
+SBO - have no game list /need to use LaunchGame without the gameID
+YEE Bet - need to use LaunchGame without the gameID
+Vivo Gaming = There is no GetGameList for ProductID = 1035-VIVO_GAMING with game type = 1-SLOT
+Vivo Gaming = There is no GetGameList for ProductID = 1035-VIVO_GAMING with game type = 2-LIVE_CASINO
+
+King 855 = There is no GetGameList for ProductID = 1038-CT855 with game type = 2-LIVE_CASINO
+ASIA_GAMING= There is no GetGameList for ProductID = 1001-ASIA_GAMING with game type = 2-LIVE_CASINO
+
+SIMPLE_PLAY= There is no GetGameList for ProductID = 1089-SIMPLE_PLAY with game type = 8-FISHING
+SPORT_BOOK = There is no GetGameList for ProductID = 1104-SSports with game type = 3-SPORT_BOOK

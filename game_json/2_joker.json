@@ -1,0 +1,142 @@
+{
+    "ProviderGames": [
+        {
+            "GameCode": "1jeqx59c7ztqg",
+            "GameName": "Fish Hunter Monster Awaken",
+            "GameType": 8,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/1jeqx59c7ztqg.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "b8rzo7uzqt4sw",
+            "GameName": "Fish Hunting: Golden Toad",
+            "GameType": 8,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/b8rzo7uzqt4sw.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "xq9ohbyf9m79o",
+            "GameName": "Bird Paradise",
+            "GameType": 8,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/xq9ohbyf9m79o.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "wi17jwsu4de7c",
+            "GameName": "Fish Hunting: Yao Qian Shu",
+            "GameType": 8,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/wi17jwsu4de7c.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "kk8nqm3cfwtng",
+            "GameName": "Fish Haiba",
+            "GameType": 8,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/kk8nqm3cfwtng.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "nzkseaudcbosc",
+            "GameName": "Fish Hunting: Li Kui Pi Yu",
+            "GameType": 8,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/nzkseaudcbosc.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "st5cmuqnaxycn",
+            "GameName": "Fish Hunting: Happy Fish 5",
+            "GameType": 8,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/st5cmuqnaxycn.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "8d7r1okge7nrk",
+            "GameName": "Fish Hunting: Da Sheng Nao Hai",
+            "GameType": 8,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/8d7r1okge7nrk.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "xkhy6baryz7xs",
+            "GameName": "Fish Hunter 2 EX - Newbie",
+            "GameType": 8,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/xkhy6baryz7xs.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "4omkmmpnwqokn",
+            "GameName": "Fish Hunter Spongebob",
+            "GameType": 8,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/4omkmmpnwqokn.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "qq5ocdypyeboy",
+            "GameName": "Fish Hunter 2 EX - Novice",
+            "GameType": 8,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/qq5ocdypyeboy.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "g54rso4yefdrq",
+            "GameName": "Fish Hunter 2 EX - Pro",
+            "GameType": 8,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/g54rso4yefdrq.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "ddpg1amgc71gk",
+            "GameName": "Insect Paradise",
+            "GameType": 8,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/ddpg1amgc71gk.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "ary5bxi9z165r",
+            "GameName": "Fish Hunter 2 EX - My Club",
+            "GameType": 8,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/ary5bxi9z165r.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "p63ornyjba8oa",
+            "GameName": "Fishermans Wharf",
+            "GameType": 8,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/p63ornyjba8oa.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        }
+    ],
+    "GamesList": null,
+    "ErrorCode": 0,
+    "ErrorMessage": null
+}
