@@ -104,7 +104,7 @@
       </div>
       <div class="ms-auto my-auto mt-lg-0 mt-4">
        <div class="ms-auto my-auto">
-        
+
 
        </div>
       </div>
@@ -116,18 +116,17 @@
 
   <div class="row">
     <div class="col-md-6">
-      <div class="input-group input-group-outline is-valid my-3">
-        <label class="form-label"> Name</label>
+        <div>Name</div>
+      <div class="input-group input-group-outline is-valid ">
         <input type="text" class="form-control" name="name" value="{{ $master->name }}" readonly>
-
       </div>
       @error('name')
         <span class="d-block text-danger">*{{ $message }}</span>
         @enderror
     </div>
     <div class="col-md-6">
-      <div class="input-group input-group-outline is-valid my-3">
-        <label class="form-label">Current Balance</label>
+        <div>Current Balance</div>
+      <div class="input-group input-group-outline is-valid ">
         <input type="text" class="form-control" name="phone" value="{{ $master->balanceFloat}}" readonly>
 
       </div>
@@ -141,8 +140,7 @@
   <div class="row">
     <div class="col-md-6">
       <div class="input-group input-group-outline is-valid my-3">
-        <label class="form-label">Amount</label>
-        <input type="text" class="form-control" name="amount" required>
+        <input type="text" class="form-control" name="amount" placeholder="Amounts" required>
       </div>
       @error('amount')
          <span class="d-block text-danger">*{{ $message }}</span>
@@ -150,9 +148,7 @@
     </div>
     <div class="col-md-6">
       <div class="input-group input-group-outline is-valid my-3">
-        <label class="form-label">Addition Note (optional)</label>
-        <input type="text" class="form-control" name="note">
-
+        <input type="text" class="form-control" name="note" placeholder="Addition Note (optional)">
       </div>
       @error('note')
         <span class="d-block text-danger">*{{ $message }}</span>

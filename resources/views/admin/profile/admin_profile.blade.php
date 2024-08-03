@@ -19,7 +19,7 @@
                                 {{$user->name}}
                             </h5>
                             <p class="mb-0 font-weight-normal text-sm">
-                           
+
                                 {{$user->roles[0]['title']}}
                             </p>
                         </div>
@@ -93,15 +93,15 @@
                 <form action="{{ route('admin.profile.updatePassword',$user->id) }}" method="POST">
                 @csrf
                     <div class="input-group input-group-outline my-4">
-                        <label class="form-label">New password</label>
-                        <input type="password" class="form-control" name="password">
+                        {{-- <label class="form-label">New password</label> --}}
+                        <input type="password" class="form-control" name="password" placeholder="New password">
                     </div>
                     @error('password')
                         <span class="d-block text-danger">*{{ $message }}</span>
                     @enderror
                     <div class="input-group input-group-outline">
-                        <label class="form-label">Confirm New password</label>
-                        <input type="password" class="form-control" name="password_confirmation">
+                        {{-- <label class="form-label">Confirm New password</label> --}}
+                        <input type="password" class="form-control" name="password_confirmation" placeholder="Confirm New password">
                     </div>
                     <h5 class="mt-5">Password requirements</h5>
                     <p class="text-muted mb-2">
