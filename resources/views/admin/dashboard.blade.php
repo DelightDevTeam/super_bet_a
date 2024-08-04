@@ -1,6 +1,6 @@
 @extends('admin_layouts.app')
 @section('content')
-    <div class="row  p-lg-5 p-md-4 p-sm-3 p-3" style="background-color: black">
+    <div class="row  p-lg-5 p-md-4 p-sm-3 p-3" style="background-color: rgb(43, 42, 41)">
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-6 col-6 mt-lg-4 mt-md-3 mt-sm-2 mt-2">
                 <div class="card   mb-2" style="background-color: rgb(19, 101, 252)">
