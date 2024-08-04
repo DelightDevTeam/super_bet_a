@@ -1,70 +1,68 @@
 @extends('admin_layouts.app')
 @section('content')
-<div class="row">
+<div class="row  p-lg-5 p-md-4 p-sm-2 p-2"  style="background-color: black">
 
 
             <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-6 col-6 mt-lg-4 mt-md-3 mt-sm-2 mt-2">
-                    <div class="card  mb-2">
-                        <div class="card-header p-3 pt-2">
-                            <div class="icon icon-lg icon-shape bg-gradient-warning shadow-warning shadow text-center border-radius-xl mt-n4 position-absolute">
-                                <i class="fa-regular fa-credit-card"></i>
+
+                <div class="col-lg-4 col-md-4 col-sm-6 col-6 mt-lg-4 mt-md-3 mt-sm-2 mt-2" >
+                    <div class="card   mb-2" style="background-color: rgb(19, 101, 252)">
+                            <div class="text-white p-1 pt-2 d-flex justify-content-around">
+                                <h4  class="text-white "><i class="fa-solid fa-money-check-dollar fs-1"></i></h4>
+                                <h4 class="text-white "> Balance</h4>
                             </div>
-                            <div class="text-end pt-1">
-                                <p class="text-sm mb-0 text-capitalize">Balance</p>
-                                <h4 class="mb-0 mt-lg-0 mt-md-3 mt-sm-3 mt-3">{{ number_format(auth()->user()->balanceFloat) }}</h4>
+                            <div class="pt-lg-5 pt-md-4 pt-sm-3 pt-3 pe-lg-3 pe-md-3 pe-sm-2 pe-1 text-center">
+                                <h4 class="mb-0 mt-lg-0 mt-md-3 mt-sm-3 mt-3 text-white ">{{ number_format(auth()->user()->balanceFloat) }}</h4>
                             </div>
-                        </div>
                         <hr class="dark horizontal my-0">
-                        <div class="card-footer p-3">
-                            <p class="mb-0"><span class="text-success text-sm font-weight-bolder"></span>latest update</p>
+                        <div class="card-footer p-1">
+                            <p class="mb-0 text-white"><span class="text-success text-sm font-weight-bolder"></span>latest update</p>
                         </div>
                     </div>
-                    <br>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-6 mt-lg-4 mt-md-3 mt-sm-2 mt-2">
-                    <div class="card ">
-                        <div class="card-header p-3 pt-2 bg-transparent">
-                            <div class="icon icon-lg icon-shape bg-gradient-danger shadow-info text-center border-radius-xl mt-n4 position-absolute">
-                                <i class="fa-solid  fa-user opacity-10"></i>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-6 mt-lg-4 mt-md-3 mt-sm-2 mt-2" >
+                    <div class="card bg-danger  mb-2" >
+                            <div class="text-white p-1 pt-2 d-flex justify-content-around">
+                                <h4  class="text-white ">  <i class="fa-solid  fa-user fs-1"></i></h4>
+                                @if(auth()->user()->hasRole('Admin'))
+                                <h4 class="text-white "> Master</h4>
+                                @else
+                                <h4 class="text-white "> Agents</h4>
+                                @endif
                             </div>
-                            @if(auth()->user()->hasRole('Admin'))
-                            <div class="text-end pt-1">
-                                <p class="text-sm mb-0 text-capitalize ">Master</p>
-                                <h4 class="mb-0 mt-lg-0 mt-md-3 mt-sm-3 mt-3 ">{{$master_count}}</h4>
+                            <div class="pt-lg-5 pt-md-4 pt-sm-3 pt-3 pe-lg-3 pe-md-3 pe-sm-2 pe-1 text-center">
+                                @if(auth()->user()->hasRole('Admin'))
+                                <div class="text-center ">
+                                    <h4 class="mb-0 mt-lg-0 mt-md-3 mt-sm-3 mt-3 text-white">{{$master_count}}</h4>
+                                </div>
+                                @else
+                                <div class="text-center ">
+                                    <h4 class="mb-0 mt-lg-0 mt-md-3 mt-sm-3 mt-3 text-white">{{$agent_count}}</h4>
+                                </div>
+                                @endif
                             </div>
-                            @else
-                            <div class="text-end pt-1">
-                                <p class="text-sm mb-0 text-capitalize ">Agents</p>
-                                <h4 class="mb-0 mt-lg-0 mt-md-3 mt-sm-3 mt-3 ">{{$agent_count}}</h4>
-                            </div>
-                            @endif
-                        </div>
-                        <hr class="horizontal my-0 dark">
-                        <div class="card-footer p-3">
-                            <p class="mb-0 ">Just updated</p>
+                        <hr class="dark horizontal my-0">
+                        <div class="card-footer p-1">
+                            <p class="mb-0 text-white"><span class="text-success text-sm font-weight-bolder"></span>latest update</p>
                         </div>
                     </div>
                 </div>
 
-
-            <div class="col-lg-4 col-md-4 col-sm-6 col-6 mt-lg-4 mt-md-3 mt-sm-2 mt-2">
-                    <div class="card ">
-                        <div class="card-header p-3 pt-2 bg-transparent">
-                            <div class="icon icon-lg icon-shape bg-gradient-success shadow-success text-center border-radius-xl mt-n4 position-absolute">
-                                <i class="fa-solid fa-users"></i>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-6 mt-lg-4 mt-md-3 mt-sm-2 mt-2" >
+                    <div class="card  bg-gradient-success  mb-2" >
+                            <div class="text-white p-1 pt-2 d-flex justify-content-around">
+                                <h4  class="text-white "><i class="fa-solid fa-users fs-1"></i></h4>
+                                <h4 class="text-white "> Players</h4>
                             </div>
-                            <div class="text-end pt-1">
-                                <p class="text-sm mb-0 text-capitalize ">Players</p>
-                                <h4 class="mb-0 mt-lg-0 mt-md-3 mt-sm-3 mt-3 ">{{$player_count}}</h4>
+                            <div class="pt-lg-5 pt-md-4 pt-sm-3 pt-3 pe-lg-3 pe-md-3 pe-sm-2 pe-1 text-center">
+                                <h4 class="mb-0 mt-lg-0 mt-md-3 mt-sm-3 mt-3 text-white ">{{$player_count}}</h4>
                             </div>
-                        </div>
-                        <hr class="horizontal my-0 dark">
-                        <div class="card-footer p-3">
-                            <p class="mb-0 ">Just updated</p>
+                        <hr class="dark horizontal my-0">
+                        <div class="card-footer p-1">
+                            <p class="mb-0 text-white"><span class="text-success text-sm font-weight-bolder"></span>latest update</p>
                         </div>
                     </div>
-            </div>
+                </div>
 
         </div>
 
